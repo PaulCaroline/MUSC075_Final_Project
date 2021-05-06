@@ -41,11 +41,12 @@
     <li>
       <a href="#procedure">Procedure</a>
       <ul>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#materials">Tools & Materials</a></li>
+        <li><a href="#schematic">Hardware & Schematics</a></li>
+        <li><a href="#testing">Construction & Testing</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#usage">Demo</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -137,6 +138,7 @@ Project Link: [https://github.com/PaulCaroline/MUSC075_Final_Project](https://gi
 * [Othniel Drew](https://github.com/othneildrew) (Readme Template)
 * [Possessed Photography](https://unsplash.com/@possessedphotography) (Repo Social Media Thumbnail)
 * [MERT Arduino & Tech](https://www.youtube.com/watch?v=TkA2LJctU1c)
+* [Arduino Getting Started](https://arduinogetstarted.com/tutorials/arduino-button-servo-motor)
 
 
 
