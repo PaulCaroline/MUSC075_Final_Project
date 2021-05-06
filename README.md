@@ -1,5 +1,9 @@
 <!-- PROJECT SHIELDS -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Arduino-IDE][arduino-shield]][arduino-url]
+[![Cpp][cpp-shield]][cpp-url]
+
+
 
 
 
@@ -8,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/PaulCaroline/MUSC075_Final_Project">
-    <img src="images/robocop_guitar.gif" alt="Logo" width="300">
+    <img src="res/robocop_guitar.gif" alt="Logo" width="300">
   </a>
 
   <h1 align="center"><i>Dextera ("Right Hand")</i></h1>
@@ -59,7 +63,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Overview
 
-<img src="images/aerial_cut.png" width="750" padding="50"></img>  
+<img src="res/side_final.jpg" width="750" padding="50"></img>  
 
 *Dextera* is meant to symbolize the synergy of man and machine in the production of music, art, and other related endeavors that probe the limits of human creativity. The piece features a series of touch-sensitive sensors connected to servo motors, which are fitted to plastic picks that each pluck the string of a ukulele when a sensor is triggered. Having the touch sensors situated beneath the strings of the ukulele means that the device can be strummed automatically as a performer stops a string.
 
@@ -86,18 +90,78 @@ The difference between the illustration offered in the film, and that of a *Dext
 
 
 ### Hardware & Schematics
-*The following circuit diagram was used to construct electrical components of the project inside of a plastic chassis. Please note that the final iteration utilized 5100 Ω resistors.*
-<img src="images/circuit_diagram.png" width=750></img>  
+The following circuit diagram was used to construct electrical components of the project inside of a plastic chassis. Please note that the final iteration utilized 5100 Ω resistors.
+<img src="res/circuit_diagram.png" width=750></img>  
 
-*The original draft of the design included a linear wooden or fiberglass scaffolding, but the latest iteration used a hand-crafted plastic, cylindrical chassis, as it proved more expedient given time constraints. Several methods can be employed to mount the servo motors, however.*
-<img src="images/mechanical_diagram.png" width=750></img>  
+The original draft of the design included a linear wooden or fiberglass scaffolding, but the latest iteration used a hand-crafted plastic, cylindrical chassis, as it proved more expedient given time constraints. Several methods can be employed to mount the servo motors, however.
+<img src="res/mechanical_diagram.png" width=750></img>  
 
 
 ### Construction & Testing
+#### Picks
+Picks for plucking each string were crafted by threading two pieces of metal wire through the default servo horns, and then attaching a flexible piece of tape in the shape of a flag. 
+<table style="padding:10px;">
+    <tr>
+        <td><img src="res/picks_lateral.jpg" width=375></img></td>
+        <td><img src="res/picks_aerial.jpg" width=375></img></td>
+    </tr>
+</table> 
+
+
+
+#### Chassis
+The chassis containing the mechanical parts of the robot was fashioned from two pieces of plastic that were joined together and fitted with the series of four servo motors via the default screws.
+<table style="padding:10px;">
+    <tr>
+        <td><img src="res/chassis_progress.jpg" width="300"></img></td>
+        <td><img src="res/chassis_bottom.jpg" width="300"></img></td>
+        <td><img src="res/chassis_front.jpg" width="300"></img></td>
+    </tr>
+</table>
+
+
+#### Testing Setup
+Testing was done by first achieving the plucking motion on a duplicate set of four servos that were connected to small touch sensors made from copper tape. However, the project might, in fact, be better suited for using the same hardware for testing as well as the final product. There were slight differences in the way the servos responded when programmed. There were also substantial differences between the touch read signals received by the ukulele, and those taken from the test setup. On/Off signal state was managed in the code by setting a threshold value to be the appropriate difference in signal strength for which a touch would be registered.  
+
+<img src="res/testing_setup.jpg" width="600">
+
 
 
 <!-- DEMO -->
 ## Demo
+#### *Dextera* in Action
+<img src="res/demo.gif" width="300">
+
+<br><br>
+
+<center>
+<figure>
+    <figcaption><strong>Listen to <i>Dextera:</i> </strong></figcaption>
+    <audio
+        controls
+        src="res/audio_trimmed.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+</center>  
+
+
+Recording available at this [link](https://drive.google.com/file/d/1EbntH5FpYEsRkRXaNc1Gf0LBK3EfbXMq/view?usp=sharing)
+
+#### Gallery
+<table style="padding:10px;">
+    <tr>
+        <td><img src="res/aerial_final.jpg" width="300"></img></td>
+        <td><img src="res/fingerboard_perspective.jpg" width="300"></img></td>
+        <td><img src="res/front_final.jpg" width="300"></img></td>
+    </tr>
+     <tr>
+        <td><img src="res/side_final.jpg" width="300"></img></td>
+        <td><img src="res/breadboard.jpg" width="300"></img></td>
+        <td><img src="res/header_original.jpg" width="300"></img></td>
+    </tr>
+</table>
 
 
 See the [open issues](https://github.com/PaulCaroline/MUSC075_Final_Project/issues) for a list of proposed features (and known issues).
@@ -147,4 +211,8 @@ Project Link: [https://github.com/PaulCaroline/MUSC075_Final_Project](https://gi
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/paul-caroline-336800142
-[product-screenshot]: images/aerial_cut.png
+[arduino-shield]: https://img.shields.io/badge/Arduino_IDE-00979D?style=for-the-badge&logo=arduino&logoColor=white
+[arduino-url]: https://www.arduino.cc/en/software
+[cpp-shield]: https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white
+[cpp-url]: https://isocpp.org/
+[product-screenshot]: res/aerial_cut.png
