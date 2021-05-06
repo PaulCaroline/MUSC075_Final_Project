@@ -3,10 +3,8 @@
 ////////////////////////////////////////////////////////////////
 // Author: Paul Caroline
 // Date: 28 Apr. 2021
-// Final Project: Servo Test
+// Final Project: Servo Control
 // MUSC 075 - Musical Interfaces in Robotics
-// ** Special thanks to MERT Arduino & Tech
-//    https://www.youtube.com/watch?v=TkA2LJctU1c
 /////////////////////////////////////////////////////////////////
 
 // Define pins for capacitive touch
