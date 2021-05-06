@@ -136,6 +136,7 @@ Project Link: [https://github.com/PaulCaroline/MUSC075_Final_Project](https://gi
 ## Acknowledgements
 * [Othniel Drew](https://github.com/othneildrew) (Readme Template)
 * [Possessed Photography](https://unsplash.com/@possessedphotography) (Repo Social Media Thumbnail)
+* [MERT Arduino & Tech](https://www.youtube.com/watch?v=TkA2LJctU1c)
 
 
 
